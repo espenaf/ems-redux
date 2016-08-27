@@ -1,14 +1,14 @@
 import scala.util.Properties
 
-credentials ++= { 
+credentials ++= {
   (for {
   username <- Properties.envOrNone("NEXUS_USERNAME")
   password <- Properties.envOrNone("NEXUS_PASSWORD")
-} yield 
+} yield
   Credentials(
-    "Sonatype Nexus Repository Manager", 
-    "nye.java.no", 
-    username, 
+    "Sonatype Nexus Repository Manager",
+    "nexus.demosthenes",
+    username,
     password
   )).toSeq
 }
