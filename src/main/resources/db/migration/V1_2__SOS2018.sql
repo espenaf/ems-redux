@@ -1,0 +1,16 @@
+insert into event(id, name, venue, slug) values ('e92c8651-ccd2-4a55-bb84-6283fe0d94b9', 'SOS 2018', 'CLARION CONGRESS Trondheim', 'soskonf2018');
+insert into slot(id, eventId, start, duration) values ('ce51d154-7d58-47d3-831e-d8faa11a1bee', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 10:10:00', 50);
+insert into slot(id, eventId, start, duration) values ('5e16b93a-190c-4311-91f8-161bff9e5a8b', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 10:50:00', 50);
+insert into slot(id, eventId, start, duration) values ('80fd0426-9056-47f6-bad3-5f1ddcb9ec84', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 12:00:00', 45);
+insert into slot(id, eventId, start, duration) values ('7c408920-a5e1-44e0-a732-f22731f6b2cf', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 13:45:00', 30);
+insert into slot(id, eventId, start, duration) values ('e4be6193-9b57-479d-bda0-6a218ddfbac5', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 14:15:00', 30);
+insert into slot(id, eventId, start, duration) values ('b82e2607-5273-4cbd-aa96-d6e268fd09ec', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 15:00:00', 30);
+insert into slot(id, eventId, start, duration) values ('72b7646f-8f8e-4034-b0ce-f3e77667e587', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 16:00:00', 30);
+insert into slot(id, eventId, start, duration) values ('9d4acf78-5800-4ed1-bfc4-9bf1d6eebbca', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-08 16:30:00', 30);
+insert into slot(id, eventId, start, duration) values ('acb536e0-da9f-48d4-8ea5-5925b910701d', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-09 09:15:00', 45);
+insert into slot(id, eventId, start, duration) values ('37227bda-e4da-481b-bd9b-30072c6be519', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-09 10:30:00', 30);
+insert into slot(id, eventId, start, duration) values ('477b5e44-4452-4fee-8f36-607e00fd6d8f', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-09 11:00:00', 30);
+insert into slot(id, eventId, start, duration) values ('664cf861-a6c0-4b89-be49-6e43f0cb89ff', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-09 12:30:00', 30);
+insert into slot(id, eventId, start, duration) values ('aedb8dd2-d541-45e3-bdf4-cc6cb0d7189e', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', '2018-05-09 13:00:00', 45);
+insert into room(id, eventid, name) values ('d0123286-c92c-4dcb-8a9f-80305681e623', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', 'Sal 1');
+insert into room(id, eventid, name) values ('76db0523-0242-4922-b290-b7d1358cda87', 'e92c8651-ccd2-4a55-bb84-6283fe0d94b9', 'Sal 2');
