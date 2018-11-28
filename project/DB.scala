@@ -10,7 +10,7 @@ object Db {
   val password     = SettingKey[String]("db-password")
 
   def settings:Seq[Setting[_]] = Seq(
-    rootUrl := "jdbc:postgresql://127.0.0.1:5432",
+    rootUrl := "jdbc:postgresql://127.0.0.1:5442",
     url <<= Def.setting{
       val databaseName = dbName.value.replaceAll("-", "_").replaceAll("/", "_").toLowerCase()
       ensureDatabase(rootUrl.value, databaseName, user.value, password.value)

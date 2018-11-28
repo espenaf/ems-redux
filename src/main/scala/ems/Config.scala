@@ -22,7 +22,7 @@ object Config extends LazyLogging {
   private implicit val sqlConfigConverter = fromObject(obj => {
     SqlConfig(
       obj.get[String]("host").getOrElse("localhost"),
-      obj.get[Int]("port").getOrElse(5432),
+      obj.get[Int]("port").getOrElse(5442),
       obj.get[String]("database").getOrElse("ems"),
       obj[String]("username"),
       obj[String]("password")
@@ -60,7 +60,7 @@ object Config extends LazyLogging {
 case class CacheConfig(events: Int = 30, sessions: Int = 30)
 
 case class SqlConfig(host: String = "localhost",
-                     port: Int = 5432,
+                     port: Int = 5442,
                      database: String = "ems",
                      username: String = "ems",
                      password: String = "ems") {
