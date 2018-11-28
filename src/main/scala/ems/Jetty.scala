@@ -10,7 +10,7 @@ import ems.storage.{FilesystemBinaryStorage, Migration, SQLStorage}
 import scala.util.Properties
 
 object Jetty extends App with LazyLogging {
-  val port = Properties.propOrElse("PORT", Properties.envOrElse("PORT", "8081")).toInt
+  val port = Properties.propOrElse("PORT", Properties.envOrElse("PORT", "8091")).toInt
   val contextPath = Properties.propOrElse("contextPath", Properties.envOrElse("contextPath", "/server"))
   val authStrategy = Properties.propOrElse("auth-strategy", Properties.envOrElse("auth-strategy", "file"))
   val home = new File(Properties.propOrElse("app.home", Properties.envOrElse("APP_HOME", ".")))
